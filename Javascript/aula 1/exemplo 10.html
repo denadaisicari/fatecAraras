@@ -1,0 +1,25 @@
+<!-- Utilizar UTF-8 para melhorar apresentacao de acentos -->
+<meta charset="utf-8">
+<script type="text/javascript">
+var nome = prompt("Digite seu nome: ");
+alert ("Olá " + nome);
+//confirm da o feedback da resposta do usuario
+var resp=confirm("Você poderia confirmar algumas perguntas?");
+
+	if (resp == true)
+	{
+		resp=confirm("Você gosta de pudim?");
+		if (resp == true)
+			{
+				alert ("Concordo com você!");
+			}
+		else (resp == false)
+			{
+				alert ("Ahh que pena, só temos pudim...")
+			}
+	}
+	else (resp == false)
+	{	
+		alert("Muito obrigado!");
+	}	
+</script>
